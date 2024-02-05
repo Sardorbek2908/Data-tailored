@@ -168,6 +168,9 @@ body {
     text-align: center;
     padding-top: 20px;
 }
+.main__p{
+    color: var(--dark-purple);
+}
 
 .main1 {
     background-attachment: var(--white);
@@ -232,4 +235,32 @@ body {
 
 .main-img {
     padding-left: 400px;
+}
+
+.img1-time {
+    transform: translateY(400px) translateX(150px);
+}
+
+.logo-img {
+    width: 96px;
+    height: 25px;
+}
+
+.icon__img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-logo__img {
+    
+    text-align: center;
+    transform: translateY(120px);
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    transform: translateY(150px);
+    column-gap: 30px;
+    padding-bottom: 110px;
 }
